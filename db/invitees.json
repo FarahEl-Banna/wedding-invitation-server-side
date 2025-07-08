@@ -1,0 +1,5 @@
+[
+  { "name": "Ali Khoury", "phone": "96170123456", "invited_count": 2, "side":"B" },
+  { "name": "Nour Sleiman", "phone": "96176123456", "invited_count": 1, "side":"B" },
+  { "name": "Ruba Sleiman", "phone": "96170223456", "invited_count": 3, "side":"B" }
+]
