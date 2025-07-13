@@ -51,6 +51,9 @@ exports.addMany = async (req, res) => {
 };
 
 exports.deleteByPhone = async (req, res) => {
+  if(!await model.findByPhone(req.params.phone)){
+    return res.json({ message: 'Phone number dose not exist, Invitee cannot be deleted' });
+  }
   try {
     await model.deleteByPhone(req.params.phone);
     res.json({ message: 'Invitee deleted' });
@@ -60,6 +63,9 @@ exports.deleteByPhone = async (req, res) => {
 };
 
 exports.updateByPhone = async (req, res) => {
+  if(!await model.findByPhone(req.params.phone)){
+    return res.json({ message: 'Phone number dose not exist, Invitee cannot be updated' });
+  }
   try {
     await model.updateByPhone(req.params.phone, req.body);
     res.json({ message: 'Invitee updated' });
