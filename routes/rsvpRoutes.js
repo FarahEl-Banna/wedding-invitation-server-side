@@ -16,6 +16,6 @@ router.put('/:phone', codeController.updateByPhone);
 router.get('/getall', codeController.getAll);
 router.get('/side/:side', codeController.getBySide);
 router.get('/confirmed', codeController.getConfirmed);
-
+router.get('/declined', codeController.getDeclined);
 
 module.exports = router;

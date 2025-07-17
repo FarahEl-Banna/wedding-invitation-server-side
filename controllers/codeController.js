@@ -101,3 +101,12 @@ exports.getConfirmed = async (_, res) => {
     res.status(500).json({ error: err.message });
   }
 };
+
+exports.getDeclined = async (_, res) => {
+  try {
+    const data = await model.getDeclined();
+    res.json(data);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+};

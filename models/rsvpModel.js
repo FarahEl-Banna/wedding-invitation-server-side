@@ -37,3 +37,4 @@ exports.rejectAttendance = (phone) =>
   exports.getAll=() => db('invitees').select();
   exports.getBySide=(side) => db('invitees').where({ side }).select();
   exports.getConfirmed=() => db('invitees').where({ is_attending: true }).select();
+  exports.getDeclined=() => db('invitees').where({ is_attending: false }).select();

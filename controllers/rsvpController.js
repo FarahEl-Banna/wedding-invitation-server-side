@@ -9,10 +9,10 @@ exports.submitRsvp = async (req, res) => {
 
     if (attending) {
       await model.confirmAttendance(phone, guests);
-      return res.json({ message: 'RSVP confirmed!' });
+      return res.status(202).json({ message: 'RSVP confirmed!' });
     } else {
       await model.rejectAttendance(phone);
-      return res.json({ message: 'Sorry to hear that!' });
+      return res.status(200).json({ message: 'Sorry to hear that!' });
     }
   } catch (err) {
     res.status(500).json({ message: 'Server error', error: err.message });

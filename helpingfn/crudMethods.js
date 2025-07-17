@@ -1,4 +1,6 @@
 const model = require('../models/rsvpModel');
+const fs = require('fs');
+const path = require('path');
 
 
 async function addOneInvitee(invitee) {
@@ -56,7 +58,7 @@ async function getAllInvitees() {
 async function getInviteesBySide(side) {
   try {
     const invitees = await model.getBySide(side);
-    console.log(`📦 Invitees from side ${side}:`, invitees);
+    // console.log(`📦 Invitees from side ${side}:`, invitees);
     return invitees;
   } catch (err) {
     console.error('❌ Error getting invitees by side:', err.message);
@@ -91,18 +93,22 @@ module.exports = {
 // ✅ Tested functions
 //
 
-// addOneInvitee({ name: 'Weam', phone: '96170878662', invited_count: 2, side: 'G' });
-// addManyInvitees([
-//   { name: 'Mahmoud', phone: '966539040339', invited_count: 2, side: 'G' },
-//   { name: 'Salam', phone: '966535267655', invited_count: 2, side: 'G' }
-// ])
+//  addOneInvitee( {name: 'Haifa El Banna', phone: '96170195233', invited_count: 1, side: 'B' });
+
+// const rawData = JSON.parse(fs.readFileSync(path.join(__dirname, 'invites.json')));
+// console.log(rawData);
+  // addManyInvitees([
+  //  { name: 'Aseel ', phone: '96181024841', invited_count: 1, side: 'B' },
+  //  { name: 'Ruba', phone: '447402243667', invited_count: 3, side: 'B' },
+  // ])
+
 // getAllInvitees();
-// updateInviteeByPhone('96170878662', {invited_count: 1, is_attending: true});
+//  updateInviteeByPhone('447889904488', {invited_count: 2});
 // updateInviteeByPhone('96171279066', {invited_count: 5}); //does not exist
 // deleteInviteeByPhone('96170223456'); //does not exist
 //deleteInviteeByPhone('96170878662');
 // getInviteesBySide('G')
-// getInviteesBySide('B')
+  // const invites = getInviteesBySide('B')
 // getConfirmedInvitees() 
 
 // inviteeService.getConfirmedInvitees().then((confirmed) => {

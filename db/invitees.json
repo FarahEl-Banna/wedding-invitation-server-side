@@ -1,5 +1,182 @@
 [
-  { "name": "Ali Khoury", "phone": "96170123456", "invited_count": 2, "side":"B" },
-  { "name": "Nour Sleiman", "phone": "96176123456", "invited_count": 1, "side":"B" },
-  { "name": "Ruba Sleiman", "phone": "96170223456", "invited_count": 3, "side":"B" }
+  {
+    "name": "Weam",
+    "invited_count": 2,
+    "phone": "96170878662",
+    "side": "G"
+  },
+  {
+    "name": "Salam",
+    "invited_count": 1,
+    "phone": "966535267655",
+    "side": "G"
+  },
+  {
+    "name": "Mahmoud",
+    "invited_count": 1,
+    "phone": "966539040339",
+    "side": "G"
+  },
+  {
+    "name": "Omar",
+    "invited_count": 2,
+    "phone": "96170907170",
+    "side": "G"
+  },
+  {
+    "name": "Rami",
+    "invited_count": 2,
+    "phone": "9613079626",
+    "side": "G"
+  },
+  {
+    "name": "Bassem Eid",
+    "invited_count": 2,
+    "phone": "96171996336",
+    "side": "G"
+  },
+  {
+    "name": "Alaa",
+    "invited_count": 2,
+    "phone": "96170428826",
+    "side": "G"
+  },
+  {
+    "name": "Hisham",
+    "invited_count": 2,
+    "phone": "96170668599",
+    "side": "G"
+  },
+  {
+    "name": "Jad & Loulou",
+    "invited_count": 2,
+    "phone": "971526423200",
+    "side": "G"
+  },
+  {
+    "name": "Rami",
+    "invited_count": 1,
+    "phone": "971556099552",
+    "side": "G"
+  },
+  {
+    "name": "Kamo",
+    "invited_count": 1,
+    "phone": "96170230245",
+    "side": "G"
+  },
+  {
+    "name": "Ribs & aya",
+    "invited_count": 2,
+    "phone": "96171781895",
+    "side": "G"
+  },
+  {
+    "name": "Ramzi Bou ghanem",
+    "invited_count": 2,
+    "phone": "971505200765",
+    "side": "G"
+  },
+  {
+    "name": "Hussein Merhi",
+    "invited_count": 2,
+    "phone": "971566857716",
+    "side": "G"
+  },
+  {
+    "name": "Nader Hamzeh",
+    "invited_count": 2,
+    "phone": "971562227886",
+    "side": "G"
+  },
+  {
+    "name": "Salim Mahmoud",
+    "invited_count": 2,
+    "phone": "971562227883",
+    "side": "G"
+  },
+  {
+    "name": "Tarik Zeidan",
+    "invited_count": 2,
+    "phone": "971562227885",
+    "side": "G"
+  },
+  {
+    "name": "Wadih Makarem",
+    "invited_count": 2,
+    "phone": "971562227913",
+    "side": "G"
+  },
+  {
+    "name": "Melhem Mahmoud",
+    "invited_count": 2,
+    "phone": "971562227917",
+    "side": "G"
+  },
+  {
+    "name": "Nazih Nasr",
+    "invited_count": 2,
+    "phone": "971562227918",
+    "side": "G"
+  },
+  {
+    "name": "Wael Zein",
+    "invited_count": 2,
+    "phone": "971562227904",
+    "side": "G"
+  },
+  {
+    "name": "Zahi AK",
+    "invited_count": 2,
+    "phone": "971502295696",
+    "side": "G"
+  },
+  {
+    "name": "Mazen Abou Al Hosn",
+    "invited_count": 2,
+    "phone": "9613149904",
+    "side": "G"
+  },
+  {
+    "name": "Nizar Shannan",
+    "invited_count": 2,
+    "phone": "971554838937",
+    "side": "G"
+  },
+  {
+    "name": "Hani GHz",
+    "invited_count": 2,
+    "phone": "96171120948",
+    "side": "G"
+  },
+  {
+    "name": "Nahi Abou AL Hosn",
+    "invited_count": 2,
+    "phone": "971543070274",
+    "side": "G"
+  },
+  {
+    "name": "Liwaa masri",
+    "invited_count": 2,
+    "phone": "971555626199",
+    "side": "G"
+  },
+  {
+    "name": "Adel Adnan",
+    "invited_count": 2,
+    "phone": "971558811671",
+    "side": "G"
+  },
+  {
+    "name": "Hisham al taweel",
+    "invited_count": 2,
+    "phone": "971555021608",
+    "side": "G"
+  },
+  {
+    "name": "Farouq Al Aridi",
+    "invited_count": 2,
+    "phone": "971562227915",
+    "side": "G"
+  }
 ]
